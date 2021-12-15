@@ -26,6 +26,11 @@ body {
 }
 .info-text{
   margin-left: 40px;
+  
+}
+
+.info-text p{
+  color: #000;
 }
 
 .info h4{
@@ -61,6 +66,11 @@ body {
 }
 .card h2{
   margin-bottom: 10px;
+}
+
+.my h2{
+  text-align: center;
+  padding: 10px;
 }
 
 a{
@@ -105,12 +115,15 @@ margin: 20px;
   background: #ffe5e5;
 }
 
+.bg-blue{
+  background: hsl(221, 91%, 87%);
+}
 .list{
   padding: 0px 20px;
 }
 
 .list li{
-  color: #86898f;
+  color: #000;
   margin-bottom: 10px;
   
 }
@@ -215,6 +228,13 @@ height: 300px;
 
 .work{
   text-align: center;
+}
+.my{
+  text-align: justify;
+  border-radius: 5px;
+}
+.my2 h4{
+  padding: 10px;
 }
 
 .html{
